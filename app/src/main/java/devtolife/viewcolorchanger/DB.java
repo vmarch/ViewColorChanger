@@ -52,7 +52,7 @@ class DB {
     }
 
     Cursor toGetCheckedItem(long id) {
-        return database.rawQuery("SELECT checked FROM " + "\'" + DB.getNameOfTable() + "\'" + " WHERE _id = " + id, null);
+        return database.rawQuery("SELECT colored FROM " + "\'" + DB.getNameOfTable() + "\'" + " WHERE _id = " + id, null);
     }
 
     void deleteTable(String tabl) {
