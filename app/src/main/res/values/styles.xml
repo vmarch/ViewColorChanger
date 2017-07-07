@@ -1,0 +1,18 @@
+<resources>
+
+      <style name="AppThemeGreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:windowBackground">@drawable/gradientgreen</item>
+        <item name="editTextBackground">@color/colorMoreLightGreen</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textViewStyle">@style/TextStyle</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textColor">@color/colorOfText</item>
+    </style>
+</resources>
