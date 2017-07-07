@@ -142,7 +142,8 @@ public class ProdList extends AppCompatActivity implements LoaderManager.LoaderC
                 case 1:
                     tv.setPaintFlags(tv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                     tv.setTextColor(getResources().getColor(R.color.colorCheckedText));
-                    view.setBackgroundColor(getResources().getColor(R.color.colorCheckedItem));
+                    view.setBackgroundColor(getResources()
+                            .getColor(R.color.colorCheckedItem));
                     return false;
 
                 case 0:
@@ -152,7 +153,6 @@ public class ProdList extends AppCompatActivity implements LoaderManager.LoaderC
                     return false;
             }
             return false;
-
         }
     }
 
